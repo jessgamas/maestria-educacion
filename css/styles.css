@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+
+
+.row{
+	margin: 0;
+}
+
+form {
+	display: none;
+}
+
+header {
+	background-color: #162a41;
+}
+
+header img {
+	max-width: 270px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	color: #3E4A59;
+}
+
+#titulo {
+	background: url(../images/home.jpg);
+	background-size: cover;
+}
+
+
+#titulo h1 {
+	font-size: 67px;
+	color: white;
+}
+
+#titulo h2 {
+	color: white;
+	font-size: 40px;
+	margin-top: -1em;
+	font-weight: 300;
+}
+
+#titulo p{
+	color: snow;
+    font-size: 18px;
+    margin-top: -1.5em
+}
+
+
+button {
+  position: relative;
+  padding: 15px 25px;
+  color: #fdac1c;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 3px solid;
+  border-radius: 3em;
+  -webkit-animation: sdb03 3s infinite;
+}
+
+
+
+#beneficios img {
+	width: 30%;
+}
+
+#beneficios p {
+	font-weight: 300;
+}
+
+section.fondo h2 {
+	font-family: 'Asap', sans-serif;
+	text-align: center;
+	font-size: 70px;
+	text-transform: uppercase;
+}
+
+#perfiles {
+	background: url(../images/imagen%20de%20morros.png);
+	background-size: cover;
+	height: 20em;
+	display: flex;
+}
+
+#perfiles button {
+	background-color: rgba(00, 45, 70, 0.8);
+	font-size: 30px;
+	border: 0em;
+	height: 45%;
+	padding: 4.9vw;
+	margin: 1.5em;
+}
+
+#cuanto_pagar button {
+	background-color: #E2793F;
+	border-radius: 34px;
+	border: 0;
+	font-size: 16px;
+	margin-bottom: 2.5em;
+	padding: .8em;
+	margin: 2em;
+}
+
+footer {
+	background-color: #2D3D4F;
+}
+
+footer img {
+	width: 75%;
+    max-width: 50%;
+    
+}
+
+footer a{
+    display: inline-block;
+    max-width: 20%;
+}
+
+footer p {
+	color: #FFF;
+	font-weight: 300;
+    
+}
+
+@media only screen and(min-width:768px) {
+    #cuadro box {
+	height: 28vw;}
+
+    #beneficios {
+	margin: 75px;
+}
+
+    #beneficios h2 {
+	font-size: 40px;
+	margin-left: 0em;
+}
+
+    footer img {
+	width: 49%;}
+    
+    #button {
+    margin-top: 90px;
+
+    }
+    
+    
+
+}
+
+@media only screen and (min-width: 64em) {
+	#cuadro {
+		background: rgba(255, 255, 255, 0);
+        
+	}
+    
+    #titulo button {
+        margin-top: -50px;
+        margin-right: 220px;
+
+    }
+    
+
+
+
+@media only screen and (min-width:1024px){
+
+    #titulo h1{
+        font-size:76px;
+        margin-right: 4em;
+    }
+
+    #titulo h2{
+        font-size: 44px;
+        margin-top: -1.3em;
+    } 
+
+    #titulo p{
+    margin-top: 0em
+	}
+    
+    #cuadro p{ 
+    font-size: 25px;
+   }
+    
+    }
+    footer img {
+    width: 50%;
+        margin-top: 30px;
+        
+        
+}
