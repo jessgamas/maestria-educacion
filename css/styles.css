@@ -21,7 +21,7 @@ header img {
 body {
 	font-family:'Poppins', sans-serif;
 	margin: 0px;
-	color: #3E4A59;
+	color: #01203e;
 }
 
 #titulo {
@@ -106,12 +106,16 @@ body {
 #beneficios img {
 	width: 30%;
 }
+#beneficios h2{
+  font-size:35px;
+}
 
 #beneficios p {
   font-size: 17px;
   font-weight: 300;
   margin: 2em;
   text-align: justify;
+  color: #575756;
 }
 
 #beneficios > div:nth-child(2){
@@ -132,31 +136,262 @@ section.fondo h2 {
 	font-size: 70px;
 	text-transform: uppercase;
 }
-
-#perfiles {
-	background: url(../images/imagen%20de%20morros.png);
-	background-size: cover;
-	height: 20em;
-	display: flex;
+#descripcion > section > div > div.col-xs-12.col-sm-5.center-xs.middle-sm > div{
+      margin: 2em;
 }
 
-#perfiles button {
-	background-color: rgba(00, 45, 70, 0.8);
-	font-size: 30px;
-	border: 0em;
-	height: 45%;
-	padding: 4.9vw;
-	margin: 1.5em;
+#descripcion{
+    background:#01203e;
+    background-size: cover;
+    background-position: center;
+ } 
+
+#descripcion h2{
+  font-size: 34px;
+    text-align: center;
+    color: #dddddd;
+    font-family: Poppins;
+    font-weight: 500;
+    font-family:'Poppins';
+}
+#descripcion strong{
+      font-size:57px;
 }
 
-#cuanto_pagar button {
-	background-color: #E2793F;
-	border-radius: 34px;
-	border: 0;
-	font-size: 16px;
-	margin-bottom: 2.5em;
-	padding: .8em;
-	margin: 2em;
+#descripcion p{
+    text-align: justify;
+    color: #dddddd;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 2em;
+}
+
+ 
+#costos{
+    background: url(../images/william-iven-19843.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 9em 0em;
+}
+
+#costos > section > div > div.container > div > div:nth-child(1) > div{
+    margin-right: 6em;
+}
+
+#costos > section > div > div.col-xs-12 > div > h2{
+    margin-bottom: 0em;
+    margin-left: .5em;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 35px;
+    text-align:left;
+}
+
+/*PRECIO DE MATRICULAS-1*/
+#costos > section > div > div.container > div > div:nth-child(2) > div > h3{
+    color: white;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 25px
+}
+
+#costos > section > div > div.container > div > div:nth-child(2) > div > h2{
+     color: white;
+    font-family: Poppins;
+    font-weight: 100;
+    font-size: 33px;
+    margin-top: -0.5em;
+}
+
+#costos > section > div > div.container > div > div:nth-child(2) > div > p{
+    color: white;
+    font-family: Poppins;
+    font-weight: 100;
+    margin-top: -1.5em
+}
+/*PRECIO DE MATRICULAS-1 */
+
+/*PRECIO DE MATRICULAS-2 */
+#costos > section > div > div.container > div > div:nth-child(1) > div > h3{
+    color: white;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 25px
+}
+
+#costos > section > div > div.container > div > div:nth-child(1) > div > h2{
+     color: white;
+    font-family: Poppins;
+    font-weight: 100;
+    font-size: 33px;
+    margin-top: -0.5em;
+}
+
+#costos > section > div > div.container > div > div:nth-child(1) > div >p{
+    color: white;
+    font-family: Poppins;
+    font-weight: 100;
+    margin-top: -1.5em
+}
+/*PRECIO DE MATRICULAS-2*/
+
+
+#EGRESADOS h2{
+    color: #04183D;
+    font-family: poppins;
+    font-weight: 200;
+    font-size: 45px;
+    margin-top: 2em;
+    text-align: center;
+}
+
+
+/*INICIO EGRESADO 1*/
+
+#EGRESADOS > div > div:nth-child(1) > div{
+        position: relative;
+        height: 115px;
+}
+
+#EGRESADOS > div:nth-child(1){
+    margin-bottom: 4em;
+}
+
+#EGRESADOS > div > div:nth-child(1) > div > img{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+     border-radius: 10em;
+}
+
+#EGRESADOS > div > div:nth-child(1) > h3{
+    text-align: center;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 23px;
+}
+
+#EGRESADOS > div > div:nth-child(1) > p{
+        text-align: justify;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+    margin-top: -1em;
+
+}
+
+/*INICIO EGRESADO 2*/
+#EGRESADOS > div > div:nth-child(2) > div{
+        position: relative;
+        height: 115px;
+}
+
+#EGRESADOS > div:nth-child(2) {
+    margin-bottom: 4em;
+}
+
+#EGRESADOS > div > div:nth-child(2) > div > img{
+     position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10em;
+}
+#EGRESADOS > div > div:nth-child(2) > h3{
+    text-align: center;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 23px;
+}
+#EGRESADOS > div > div:nth-child(2) > p{
+        text-align: justify;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+    margin-top: -1em;
+}
+
+/*INICIO EGRESADO 3*/
+ #EGRESADOS > div > div:nth-child(3) > div{
+        position: relative;
+        height: 115px;
+}
+
+#EGRESADOS > div:nth-child(3){
+    margin-bottom: 4em;
+}
+
+#EGRESADOS > div > div:nth-child(3) > div > img{
+ position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+     border-radius: 10em;
+}
+#EGRESADOS > div > div:nth-child(3) > h3{
+    text-align: center;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 23px;
+}
+#EGRESADOS > div > div:nth-child(3) > p{
+        text-align: justify;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+    margin-top: -1em;
+    margin-top: -1em;
+}
+/*FINAL EGRESADOS*/
+
+#final{
+    background: url(../images/telefono.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#final h1{
+    color: white;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: .5em;
+}
+
+#final button{
+    margin-bottom: 0em;
+    margin-left: .7em;
 }
 
 footer {
