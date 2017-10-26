@@ -379,50 +379,22 @@ section.fondo h2 {
     background-position: center;
 }
 
-#final h1{
+#final h2{
     color: white;
     font-family: Poppins;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     margin-left: .5em;
 }
 #final > section{
-  padding: 2em;
+  padding: 2em 0em;
 }
 
-#final> section > section > div:nth-child(2):after {
-  position: absolute;
-  -webkit-transition: .3s;
-  transition: .3s;
-  content: '';
-  width: 0;
-  left: 50%;
-  bottom: 0;
-  height: 3px;
-  background: #f7f7f7;
-}
-
-#final> section > section > div:nth-child(2):hover:nth-of-type{
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-#final> section > section > div:nth-child(2):hover:nth-of-type:after {
-  width: 0%;
-}
-
-#final> section > section > div:hover {
-  cursor: pointer;
-}
-#final> section > section > div:hover:after {
-  width: 100%;
-  left: 0;
-}
-
-#final > section > div > div > p{
-  -webkit-box-flex: 1;
+#final > section > div > div > div{
+    -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    margin: 46px;
+    margin: 10px;
     padding: 20px;
     border: 2px solid #f7f7f7;
     text-align: center;
@@ -431,18 +403,40 @@ section.fondo h2 {
     overflow: hidden;
     -webkit-transition: .3s;
     transition: .3s;
+  }
+#final > section > div > div > div > p{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    color: snow;
+    font-size: 18px;
 }
 
-#final > section > div > div:after {
-  position: absolute;
-  -webkit-transition: .3s;
-  transition: .3s;
-  content: '';
-  width: 0;
-  left: 50%;
-  bottom: 0;
-  height: 3px;
-  background: #f7f7f7;
+#final > section > div > div > div:after{
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+}
+
+#final > section > div > div > div:nth-child(2):hover:nth-of-type{
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+#final > section > div > div > div:nth-child(2):hover:nth-of-type:after {
+  width: 0%;
+}
+
+#final > section > div > div > div:hover {
+  cursor: pointer;
+}
+#final > section > div > div > div:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 footer {
@@ -467,42 +461,73 @@ footer p {
 }
 
 @media only screen and(min-width:768px) {
-    #cuadro box {
-	height: 28vw;}
-
-    #beneficios {
-	margin: 75px;
-}
 
     #beneficios h2 {
-	font-size: 40px;
-	margin-left: 0em;
-}
-
-    footer img {
-	width: 49%;}
-    
-    #button {
-    margin-top: 90px;
-
+      font-size: 40px;
+      margin-left: 0em;
     }
-    
-    
-
-}
-
-@media only screen and (min-width: 64em) {
-	#cuadro {
-		background: rgba(255, 255, 255, 0);
+       
         
-	}
-    
-    #titulo button {
-        margin-top: -50px;
-        margin-right: 220px;
-
+    #beneficios img {
+        width: 46%;
     }
-    
+
+    #beneficios p {
+        margin: -1em;
+        text-align: justify;
+        margin-top: 1em;
+        font-size: 18px; 
+    }
+    #descripcion h2 {
+        margin-top: 3em;
+        font-size: 32px;
+    }
+
+    #descripcion strong {
+        font-size: 40px;
+            margin: 0em;
+      }
+
+    #descripcion p {
+        font-size: 19px;
+        margin: 2em;
+        margin-top: 2em;
+    }
+
+    #EGRESADOS > div > div:nth-child(1) {
+        margin: 0em;
+    }
+
+    #EGRESADOS > div > div:nth-child(2) {
+        margin: 0em;
+    }
+
+    #EGRESADOS > div > div:nth-child(3) {
+        margin: 0em;
+    }
+
+    #final > section {
+        padding: 0em;
+    }
+      
+    #final > section > div > div > div {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        margin: 70px;
+    }
+
+    #final h2 {
+        font-size: 40px;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 2em;
+}
+
+
+
+}
+
 
 
 
