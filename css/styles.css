@@ -460,24 +460,25 @@ footer p {
     
 }
 
-@media only screen and(min-width:768px) {
+/*M O V I L*/
 
-    #beneficios h2 {
-      font-size: 40px;
-      margin-left: 0em;
-    }
-       
-        
-    #beneficios img {
+@media only screen and (min-width:768px){
+
+#beneficios img {
         width: 46%;
     }
 
-    #beneficios p {
+#beneficios p {
         margin: -1em;
         text-align: justify;
         margin-top: 1em;
         font-size: 18px; 
     }
+
+    #descripcion {
+      margin-top: 2em;
+    }
+
     #descripcion h2 {
         margin-top: 3em;
         font-size: 32px;
@@ -494,6 +495,25 @@ footer p {
         margin-top: 2em;
     }
 
+    #titulo > section > section > div:nth-child(2) {
+          margin: 109px;
+          padding: 13px;
+          border: 4px solid #f5a351;
+    }
+
+    #titulo > section > section > div:nth-child(2) > p {
+    color: #ffffff;
+    font-size: 25px;
+    }
+
+    #titulo > section > section > div:nth-child(2):after{
+        color: #ffffff;
+        font-size: 27px;
+    }
+
+    #titulo > section > section > div:nth-child(2):after{
+      background: #f5a351;
+    }
     #EGRESADOS > div > div:nth-child(1) {
         margin: 0em;
     }
@@ -506,14 +526,11 @@ footer p {
         margin: 0em;
     }
 
-    #final > section {
-        padding: 0em;
-    }
+    
       
-    #final > section > div > div > div {
-        -webkit-box-flex: 1;
-        -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
+  #final > section > div > div > div {
+        padding: 13px;
+        border: 4px solid #f5a351;
         margin: 70px;
     }
 
@@ -522,12 +539,18 @@ footer p {
         font-weight: 500;
         text-align: center;
         padding-top: 2em;
-}
+    }
+    
+    #final > section > div > div > div > p {
+      color: #ffffff;
+      font-size: 25px;
+    }
 
+    #final > section > div > div > div:after{
+      background: #f5a351;
+    }
 
-
-}
-
+ } 
 
 
 
