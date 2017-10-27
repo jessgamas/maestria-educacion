@@ -556,28 +556,146 @@ footer p {
 
 @media only screen and (min-width:1024px){
 
+  #titulo > section > section > div.box{
+    text-align: center;
+  }
+
     #titulo h1{
         font-size:76px;
-        margin-right: 4em;
     }
 
     #titulo h2{
         font-size: 44px;
-        margin-top: -1.3em;
+        margin-top: -1.0em;
     } 
 
-    #titulo p{
-    margin-top: 0em
-	}
+  #beneficios p{
+    font-size: 23px;
+  }
+
+  #descripcion h2{
+    font-size: 29px;
+    margin-top: 5em;
+
+  }
+
+  #descripcion strong {
+    font-size: 65px;
+    margin: 1em;
+  }
+
+  #descripcion p {
+    font-size: 25px;
+    margin-top: 3em;
+  }
     
+
+  #costos > section > div > div.col-xs-12 > div > h2{
+    margin-top: -1.5em;
+    font-size: 51px;
+    text-align:center;
+  }
+
+  #costos > section > div > div.container > div > div:nth-child(1) > div > h3 {
+        font-size: 35px;
+  }
+
+  #costos > section > div > div.container > div > div:nth-child(1) > div > h2 {
+          font-size: 46px;
+    margin-top: -0.9em
+  }
+
+  #costos > section > div > div.container > div > div:nth-child(1) > div >p{
+    margin-top: -1.5em;
+    font-size: 25px;
+  }
+
+  #costos > section > div > div.container > div > div:nth-child(2) > div > h3{
+     font-size: 35px;
+  }
+
+  #costos > section > div > div.container > div > div:nth-child(2) > div > h2 {
+          font-size: 46px;
+    margin-top: -0.9em
+  }
+
+  #costos > section > div > div.container > div > div:nth-child(2) > div >p{
+    margin-top: -1.5em;
+    font-size: 25px;
+  }
     #cuadro p{ 
     font-size: 25px;
    }
     
-    }
     footer img {
     width: 50%;
-        margin-top: 30px;
-        
-        
+        margin-top: 30px;              
+    }
+  }
+
+  @media only screen and (min-width:1440px){
+  	
+  	#titulo > section > section > div.box{
+        text-align: center;
+    }
+
+    #titulo h1 {
+      letter-spacing: 0.3em;
+      margin-top: 3em;
+      font-size: 78px;
+    }
+
+    #titulo h2 {
+    font-size: 44px;
+    margin-top: -1.5em;
+    } 
+
+    #titulo p {
+    font-size: 20px;
+	   }
+
+    #titulo > section > section > div:nth-child(2) {
+    margin: 174px;
+   } 
+
+   #beneficios img {
+    width: 34%;
+  }
+  #descripcion h2 {
+    font-size: 38px;
+    margin-top: 6em;
 }
+
+  #descripcion strong {
+    font-size: 65px;
+    margin: .5em;
+}
+
+#descripcion p {
+    font-size: 30px;
+    margin-top: 5em;
+}
+
+#EGRESADOS h2 {
+    font-size: 60px;
+}
+
+#EGRESADOS > div > div:nth-child(1) > h3 {
+    font-size: 31px
+  }
+#EGRESADOS > div > div:nth-child(1) > p {
+    font-size: 21px
+  }
+
+#EGRESADOS > div > div:nth-child(2) > h3 {
+    font-size: 31px
+  }
+#EGRESADOS > div > div:nth-child(2) > p {
+    font-size: 21px
+  }
+#EGRESADOS > div > div:nth-child(3) > h3 {
+    font-size: 31px
+  }
+  #EGRESADOS > div > div:nth-child(3) > p {
+    font-size: 21px
+  }
