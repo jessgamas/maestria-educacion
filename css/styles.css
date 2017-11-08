@@ -31,14 +31,12 @@ body {
 
 
 #titulo h1 {
-  font-family:'Poppins';
   height: 800;
-	font-size: 67px;
-	color: white;
+  font-size: 67px;
+  color: white;
 }
 
 #titulo h2 {
-  font-family:'Poppins';
   height: 600;
 	color: white;
 	font-size: 40px;
@@ -131,11 +129,11 @@ body {
       margin: 2em;
 }
 section.fondo h2 {
-	font-family: 'Asap', sans-serif;
 	text-align: center;
 	font-size: 70px;
 	text-transform: uppercase;
 }
+
 #descripcion > section > div > div.col-xs-12.col-sm-5.center-xs.middle-sm > div{
       margin: 2em;
 }
@@ -150,9 +148,7 @@ section.fondo h2 {
   font-size: 34px;
     text-align: center;
     color: #575756;
-    font-family: Poppins;
     font-weight: 500;
-    font-family:'Poppins';
 }
 #descripcion strong{
       font-size:35px;
@@ -162,7 +158,6 @@ section.fondo h2 {
 #descripcion p{
     text-align: justify;
     color: #575756;
-    font-family: Poppins;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.5em;
@@ -185,7 +180,6 @@ section.fondo h2 {
     margin-bottom: 0em;
     margin-left: .5em;
     color: white;
-    font-family: Poppins;
     font-weight: 500;
     font-size: 35px;
     text-align:left;
@@ -194,14 +188,12 @@ section.fondo h2 {
 /*PRECIO DE MATRICULAS-1*/
 #costos > section > div > div.container > div > div:nth-child(2) > div > h3{
     color: white;
-    font-family: Poppins;
     font-weight: 300;
     font-size: 25px
 }
 
 #costos > section > div > div.container > div > div:nth-child(2) > div > h2{
      color: white;
-    font-family: Poppins;
     font-weight: 100;
     font-size: 33px;
     margin-top: -0.5em;
@@ -209,7 +201,6 @@ section.fondo h2 {
 
 #costos > section > div > div.container > div > div:nth-child(2) > div > p{
     color: white;
-    font-family: Poppins;
     font-weight: 100;
     margin-top: -1.5em
 }
@@ -218,14 +209,12 @@ section.fondo h2 {
 /*PRECIO DE MATRICULAS-2 */
 #costos > section > div > div.container > div > div:nth-child(1) > div > h3{
     color: white;
-    font-family: Poppins;
     font-weight: 300;
     font-size: 25px
 }
 
 #costos > section > div > div.container > div > div:nth-child(1) > div > h2{
     color: white;
-    font-family: Poppins;
     font-weight: 100;
     font-size: 33px;
     margin-top: -0.5em;
@@ -233,7 +222,6 @@ section.fondo h2 {
 
 #costos > section > div > div.container > div > div:nth-child(1) > div >p{
     color: white;
-    font-family: Poppins;
     font-weight: 100;
     margin-top: -1.5em
 }
@@ -275,7 +263,6 @@ section.fondo h2 {
 #EGRESADOS > div > div:nth-child(1) > h3{
     text-align: center;
     color:#575756;
-    font-family: Poppins;
     font-weight:400;
     font-size: 23px;
 }
@@ -317,7 +304,6 @@ section.fondo h2 {
 #EGRESADOS > div > div:nth-child(2) > h3{
     text-align: center;
     color:#575756;
-    font-family: Poppins;
     font-weight:400;
     font-size: 23px;
 
@@ -359,7 +345,6 @@ section.fondo h2 {
 #EGRESADOS > div > div:nth-child(3) > h3{
     text-align: center;
     color:#575756;
-    font-family: Poppins;
     font-weight:400;
     font-size: 23px;
 }
@@ -381,7 +366,6 @@ section.fondo h2 {
 
 #final h2{
     color: white;
-    font-family: Poppins;
     font-size: 30px;
     font-weight: 500;
     margin-left: .5em;
@@ -663,6 +647,9 @@ footer p {
     color: #ffffff;
     font-size: 40px;
   }
+    #beneficios h2 {
+    font-size: 41px;
+}
 
  #beneficios img {
     width: 30%;
@@ -687,7 +674,7 @@ footer p {
 }
 
 #EGRESADOS h2 {
-    font-size: 60px;
+    font-size: 41px;
 }
 
 #EGRESADOS > div > div:nth-child(1) > h3 {
@@ -738,8 +725,9 @@ footer p {
    } 
 
     #titulo > section > section > div:nth-child(2) {
-    margin: 310px;
-     margin-top: 10em;
+    margin: 510px;
+    margin-top: 9em;
+    margin-bottom: 8em;
    } 
 
    #titulo > section > section > div:nth-child(2) > p {
@@ -747,9 +735,14 @@ footer p {
     font-size: 40px;
   }
 
+  #beneficios h2 {
+    font-size: 41px;
+    margin: 2em
+}
+
 footer img {
-    width: 25%;
-   }
+    width: 37%;
+  }
 
  }
 
