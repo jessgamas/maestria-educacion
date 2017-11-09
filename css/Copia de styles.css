@@ -738,21 +738,10 @@ footer p {
   #beneficios h2 {
     font-size: 41px;
     margin: 2em
-  }
+}
 
-  #EGRESADOS > div > div:nth-child(1) > p {
-    margin: 2em;
-  }
-
-  #EGRESADOS > div > div:nth-child(2) > p {
-    margin: 2em;
-  }
-
-  #EGRESADOS > div > div:nth-child(3) > p {
-    margin: 2em;
-  }
 footer img {
-   width: 30%;
+    width: 37%;
   }
 
  }
